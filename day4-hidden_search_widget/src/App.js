@@ -11,15 +11,15 @@ const App = () => {
 	};
 
 	return (
-		<div class={`search ${open ? 'active' : ''}`}>
+		<div className={`search ${open ? 'active' : ''}`}>
 			<input
 				ref={inputRef}
 				type='text'
-				class='input active'
+				className='input active'
 				placeholder='Search...'
 			/>
-			<button class='btn active' onClick={toggleHandler}>
-				<i class='fas fa-search'></i>
+			<button className='btn active' onClick={toggleHandler}>
+				<i className='fas fa-search'></i>
 			</button>
 		</div>
 	);
