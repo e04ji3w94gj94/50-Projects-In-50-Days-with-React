@@ -49,7 +49,7 @@ const App = () => {
 			<button className="arrow right-arrow" onClick={rightClickHandler}>
 				<i className="fas fa-arrow-right"></i>
 			</button>
-		</div >
+		</div>
 	);
 };
 
