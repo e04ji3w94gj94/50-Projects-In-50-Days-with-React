@@ -1,0 +1,2 @@
+(this["webpackJsonpday23-kinetic_css_loader"]=this["webpackJsonpday23-kinetic_css_loader"]||[]).push([[0],{10:function(e,c,t){"use strict";t.r(c);var n=t(3),s=t.n(n),i=(t(1),t(8),t(0)),r=function(){return Object(i.jsx)("div",{class:"kinetic"})};s.a.render(Object(i.jsx)(r,{}),document.querySelector("#root"))},8:function(e,c,t){}},[[10,1,2]]]);
+//# sourceMappingURL=main.0f7ab1dd.chunk.js.map
