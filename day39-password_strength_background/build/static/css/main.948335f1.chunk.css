@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}body{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;height:100vh;overflow:hidden}.background{background:url(https://images.unsplash.com/photo-1556745757-8d76bdb6984b) no-repeat 50%/cover;position:absolute;top:-20px;bottom:-20px;left:-20px;right:-20px;z-index:-1;-webkit-filter:blur(20px);filter:blur(20px)}
+/*# sourceMappingURL=main.948335f1.chunk.css.map */
