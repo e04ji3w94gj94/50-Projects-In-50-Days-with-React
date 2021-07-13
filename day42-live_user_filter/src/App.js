@@ -29,20 +29,23 @@ const App = () => {
 	}, [])
 
 	const filterData = (e) => {
+		const searchTerm = e.target.value
+		setSeartch(searchTerm)
+
+		const newArray = [...results]
 
 		results.forEach((user, idx) => {
-			const searchTerm = e.target.value
-			setSeartch(searchTerm)
-
 			const filterFirst = user.name.first.toLowerCase().includes(searchTerm.toLowerCase())
 			const filterLast = user.name.last.toLowerCase().includes(searchTerm.toLowerCase())
 
 			if (filterFirst || filterLast) {
-				results[idx] = { ...user, "hide": false }
+				newArray[idx] = { ...user, "hide": false }
 			} else {
-				results[idx] = { ...user, "hide": true }
+				newArray[idx] = { ...user, "hide": true }
 			}
 		})
+
+		setResults(newArray)
 	}
 
 	return (
