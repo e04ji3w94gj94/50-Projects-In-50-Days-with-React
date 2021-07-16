@@ -5,7 +5,6 @@ const App = () => {
 
 	const [todos, setTodos] = useState([])
 	const [inputTodo, setInputTodo] = useState('')
-	// const [completed, setCompleted] = useState([false])
 
 	useEffect(() => {
 		const getTodos = JSON.parse(localStorage.getItem('todos'));
@@ -40,8 +39,6 @@ const App = () => {
 		newTodo.splice(id, 1)
 		setTodos(newTodo)
 	}
-
-
 
 	return (
 		<>
